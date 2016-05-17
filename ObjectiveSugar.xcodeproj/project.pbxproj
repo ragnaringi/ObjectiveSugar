@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90C74B11CEB519E00612B87 /* ObjectiveSugar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D90C74B01CEB519E00612B87 /* ObjectiveSugar.h */; };
+		D90C74C51CEB51DD00612B87 /* NSArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C74BA1CEB51DD00612B87 /* NSArray+ObjectiveSugar.m */; };
+		D90C74C61CEB51DD00612B87 /* NSDictionary+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C74BC1CEB51DD00612B87 /* NSDictionary+ObjectiveSugar.m */; };
+		D90C74C71CEB51DD00612B87 /* NSMutableArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C74BE1CEB51DD00612B87 /* NSMutableArray+ObjectiveSugar.m */; };
+		D90C74C81CEB51DD00612B87 /* NSNumber+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C74C01CEB51DD00612B87 /* NSNumber+ObjectiveSugar.m */; };
+		D90C74C91CEB51DD00612B87 /* NSSet+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C74C21CEB51DD00612B87 /* NSSet+ObjectiveSugar.m */; };
+		D90C74CA1CEB51DD00612B87 /* NSString+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C74C41CEB51DD00612B87 /* NSString+ObjectiveSugar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D90C74AB1CEB519E00612B87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D90C74B11CEB519E00612B87 /* ObjectiveSugar.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D90C74AD1CEB519E00612B87 /* libObjectiveSugar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveSugar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90C74B01CEB519E00612B87 /* ObjectiveSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveSugar.h; sourceTree = "<group>"; };
+		D90C74B91CEB51DD00612B87 /* NSArray+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		D90C74BA1CEB51DD00612B87 /* NSArray+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		D90C74BB1CEB51DD00612B87 /* NSDictionary+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		D90C74BC1CEB51DD00612B87 /* NSDictionary+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		D90C74BD1CEB51DD00612B87 /* NSMutableArray+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		D90C74BE1CEB51DD00612B87 /* NSMutableArray+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		D90C74BF1CEB51DD00612B87 /* NSNumber+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		D90C74C01CEB51DD00612B87 /* NSNumber+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		D90C74C11CEB51DD00612B87 /* NSSet+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		D90C74C21CEB51DD00612B87 /* NSSet+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		D90C74C31CEB51DD00612B87 /* NSString+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		D90C74C41CEB51DD00612B87 /* NSString+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ObjectiveSugar.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90C74AA1CEB519E00612B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90C74A41CEB519E00612B87 = {
+			isa = PBXGroup;
+			children = (
+				D90C74AF1CEB519E00612B87 /* ObjectiveSugar */,
+				D90C74AE1CEB519E00612B87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90C74AE1CEB519E00612B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90C74AD1CEB519E00612B87 /* libObjectiveSugar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90C74AF1CEB519E00612B87 /* ObjectiveSugar */ = {
+			isa = PBXGroup;
+			children = (
+				D90C74B01CEB519E00612B87 /* ObjectiveSugar.h */,
+				D90C74B91CEB51DD00612B87 /* NSArray+ObjectiveSugar.h */,
+				D90C74BA1CEB51DD00612B87 /* NSArray+ObjectiveSugar.m */,
+				D90C74BB1CEB51DD00612B87 /* NSDictionary+ObjectiveSugar.h */,
+				D90C74BC1CEB51DD00612B87 /* NSDictionary+ObjectiveSugar.m */,
+				D90C74BD1CEB51DD00612B87 /* NSMutableArray+ObjectiveSugar.h */,
+				D90C74BE1CEB51DD00612B87 /* NSMutableArray+ObjectiveSugar.m */,
+				D90C74BF1CEB51DD00612B87 /* NSNumber+ObjectiveSugar.h */,
+				D90C74C01CEB51DD00612B87 /* NSNumber+ObjectiveSugar.m */,
+				D90C74C11CEB51DD00612B87 /* NSSet+ObjectiveSugar.h */,
+				D90C74C21CEB51DD00612B87 /* NSSet+ObjectiveSugar.m */,
+				D90C74C31CEB51DD00612B87 /* NSString+ObjectiveSugar.h */,
+				D90C74C41CEB51DD00612B87 /* NSString+ObjectiveSugar.m */,
+			);
+			path = ObjectiveSugar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90C74AC1CEB519E00612B87 /* ObjectiveSugar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90C74B61CEB519E00612B87 /* Build configuration list for PBXNativeTarget "ObjectiveSugar" */;
+			buildPhases = (
+				D90C74A91CEB519E00612B87 /* Sources */,
+				D90C74AA1CEB519E00612B87 /* Frameworks */,
+				D90C74AB1CEB519E00612B87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveSugar;
+			productName = ObjectiveSugar;
+			productReference = D90C74AD1CEB519E00612B87 /* libObjectiveSugar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90C74A51CEB519E00612B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Evgeniy Kirpichenko";
+				TargetAttributes = {
+					D90C74AC1CEB519E00612B87 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D90C74A81CEB519E00612B87 /* Build configuration list for PBXProject "ObjectiveSugar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D90C74A41CEB519E00612B87;
+			productRefGroup = D90C74AE1CEB519E00612B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90C74AC1CEB519E00612B87 /* ObjectiveSugar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90C74A91CEB519E00612B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90C74C91CEB51DD00612B87 /* NSSet+ObjectiveSugar.m in Sources */,
+				D90C74C51CEB51DD00612B87 /* NSArray+ObjectiveSugar.m in Sources */,
+				D90C74CA1CEB51DD00612B87 /* NSString+ObjectiveSugar.m in Sources */,
+				D90C74C71CEB51DD00612B87 /* NSMutableArray+ObjectiveSugar.m in Sources */,
+				D90C74C81CEB51DD00612B87 /* NSNumber+ObjectiveSugar.m in Sources */,
+				D90C74C61CEB51DD00612B87 /* NSDictionary+ObjectiveSugar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D90C74B41CEB519E00612B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D90C74B51CEB519E00612B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90C74B71CEB519E00612B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D90C74B81CEB519E00612B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90C74A81CEB519E00612B87 /* Build configuration list for PBXProject "ObjectiveSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90C74B41CEB519E00612B87 /* Debug */,
+				D90C74B51CEB519E00612B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90C74B61CEB519E00612B87 /* Build configuration list for PBXNativeTarget "ObjectiveSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90C74B71CEB519E00612B87 /* Debug */,
+				D90C74B81CEB519E00612B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90C74A51CEB519E00612B87 /* Project object */;
+}
