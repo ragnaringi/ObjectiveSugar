@@ -14,6 +14,9 @@ FOUNDATION_EXPORT double ObjectiveSugarVersionNumber;
 //! Project version string for ObjectiveSugar.
 FOUNDATION_EXPORT const unsigned char ObjectiveSugarVersionString[];
 
+#define unless(condition...) if(!(condition))
+#define until(condition...) while(!(condition))
+
 #import <ObjectiveSugar/NSNumber+ObjectiveSugar.h>
 #import <ObjectiveSugar/NSArray+ObjectiveSugar.h>
 #import <ObjectiveSugar/NSMutableArray+ObjectiveSugar.h>
