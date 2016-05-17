@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D90C74AC1CEB519E00612B87"
-               BuildableName = "libObjectiveSugar.a"
+               BlueprintIdentifier = "D9E270141CEB537800CC1A23"
+               BuildableName = "ObjectiveSugar.framework"
                BlueprintName = "ObjectiveSugar"
                ReferencedContainer = "container:ObjectiveSugar.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D90C74AC1CEB519E00612B87"
-            BuildableName = "libObjectiveSugar.a"
+            BlueprintIdentifier = "D9E270141CEB537800CC1A23"
+            BuildableName = "ObjectiveSugar.framework"
             BlueprintName = "ObjectiveSugar"
             ReferencedContainer = "container:ObjectiveSugar.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D90C74AC1CEB519E00612B87"
-            BuildableName = "libObjectiveSugar.a"
+            BlueprintIdentifier = "D9E270141CEB537800CC1A23"
+            BuildableName = "ObjectiveSugar.framework"
             BlueprintName = "ObjectiveSugar"
             ReferencedContainer = "container:ObjectiveSugar.xcodeproj">
          </BuildableReference>

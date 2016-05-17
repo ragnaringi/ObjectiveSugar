@@ -1,11 +1,22 @@
-// C SUGAR
-#define unless(condition...) if(!(condition))
-#define until(condition...) while(!(condition))
+//
+//  ObjectiveSugar.h
+//  ObjectiveSugar
+//
+//  Created by Evgeniy Kirpichenko on 17/05/16.
+//  Copyright © 2016 Evgeniy Kirpichenko. All rights reserved.
+//
 
-// OBJC SUGAR
-#import "NSNumber+ObjectiveSugar.h"
-#import "NSArray+ObjectiveSugar.h"
-#import "NSMutableArray+ObjectiveSugar.h"
-#import "NSDictionary+ObjectiveSugar.h"
-#import "NSSet+ObjectiveSugar.h"
-#import "NSString+ObjectiveSugar.h"
+#import <UIKit/UIKit.h>
+
+//! Project version number for ObjectiveSugar.
+FOUNDATION_EXPORT double ObjectiveSugarVersionNumber;
+
+//! Project version string for ObjectiveSugar.
+FOUNDATION_EXPORT const unsigned char ObjectiveSugarVersionString[];
+
+#import <ObjectiveSugar/NSNumber+ObjectiveSugar.h>
+#import <ObjectiveSugar/NSArray+ObjectiveSugar.h>
+#import <ObjectiveSugar/NSMutableArray+ObjectiveSugar.h>
+#import <ObjectiveSugar/NSDictionary+ObjectiveSugar.h>
+#import <ObjectiveSugar/NSSet+ObjectiveSugar.h>
+#import <ObjectiveSugar/NSString+ObjectiveSugar.h>
